@@ -14,7 +14,7 @@ session out2: <%=session.getAttribute("session") %><br>
 application out2: <%=application.getAttribute("application") %><br>
 <hr>
 <h3>EL</h3>
-pageContext out3:${pageScoe.page}<br>
+pageContext out3:${pageScope.page}<br>
 request out3: ${requestScope.request}<br>
 session out3: ${sessionScope.session}<br>
 application out3: ${applicationScope.application}<br>

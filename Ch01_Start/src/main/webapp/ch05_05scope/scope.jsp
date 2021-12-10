@@ -19,6 +19,13 @@ application Scope :서버가 시작부터 종료까지 사용(변수공유 : 방
     session.setAttribute("session", "session1");//같은 브라우저 내에서 동작
     application.setAttribute("application","application1");//모든 사이트 방문자 공유
 %>
+
+
+pageContext out1:<%=pageContext.getAttribute("page") %><br>
+request out1: <%=request.getAttribute("request") %><br>
+session out1: <%=session.getAttribute("session") %><br>
+application out1: <%=application.getAttribute("application") %><br>
+
 <%
 //request 영역에 데이터 저장시 forward, include 통해서 사용
 RequestDispatcher d = request.getRequestDispatcher("other_scope.jsp");
@@ -28,9 +35,5 @@ d.forward(request, response);
 
 
 
-pageContext out1:<%=pageContext.getAttribute("page") %><br>
-request out1: <%=request.getAttribute("request") %><br>
-session out1: <%=session.getAttribute("session") %><br>
-application out1: <%=application.getAttribute("application") %><br>
 </body>
 </html>

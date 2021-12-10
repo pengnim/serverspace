@@ -26,6 +26,7 @@ public class ReadInitParameter123 extends HttpServlet {
 		out.println("<html><body>초기화 파리미터 목록::<br>");
 		out.println("::[getInitParater()]::<br>");
         //모든 사이트 방문자 공유 변수
+		//jsp 에선 application == getServletContext
 		String param1 = getServletContext().getInitParameter("logEnabled");
 		String param2 = getServletContext().getInitParameter("debugLevel");
 		out.println("logEnabled: " + param1 + "<br>" + "debugLevel: " + param2 + "<hr>");

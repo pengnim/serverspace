@@ -13,6 +13,7 @@
 <hr>
 ::[getInitParater()]::<br>
 <%
+//user1, user2, user3 모두 같은 변수를 사용함 web.xml에서 사용
 	String param1 = application.getInitParameter("logEnabled");
 	String param2 = application.getInitParameter("debugLevel");
 	out.println("logEnabled: "+param1+"<br>"+"debugLevel: "+param2);
