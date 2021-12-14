@@ -15,9 +15,9 @@
 
 	<jsp-config>
 		<jsp-property-group>
-			<url-pattern>/view/*</url-pattern>
-			<include-prelude>/common/variable.jspf</include-prelude>
-			<include-coda>/common/footer.jspf</include-coda>
+			<url-pattern>/chapter/view/*</url-pattern>
+			<include-prelude>/chapter/common/variable.jspf</include-prelude>
+			<include-coda>/chapter/common/footer.jspf</include-coda>
 		</jsp-property-group>
 	</jsp-config>
 	<servlet>
@@ -28,4 +28,22 @@
 		<servlet-name>personal</servlet-name>
 		<url-pattern>/pinfo</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>animal</servlet-name>
+		<servlet-class>study10.AnimalServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>animal</servlet-name>
+		<url-pattern>/study/study10/animal</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>result</servlet-name>
+		<servlet-class>study10.ResultServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>result</servlet-name>
+		<url-pattern>/study/study10/result</url-pattern>
+	</servlet-mapping>
+	
 </web-app>

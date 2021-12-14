@@ -17,6 +17,6 @@
 <%--   	</jsp-property-group> --%>
 <%--   </jsp-config> --%>
 
-현재 시간은 <%=CUREENT_TIME %>입니다.
+현재 시간은 <%=CURRENT_TIME %>입니다.
 </body>
 </html>
