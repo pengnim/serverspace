@@ -19,6 +19,11 @@
 			<include-prelude>/chapter/common/variable.jspf</include-prelude>
 			<include-coda>/chapter/common/footer.jspf</include-coda>
 		</jsp-property-group>
+
+		<taglib>
+			<taglib-uri>/WEB-INF/tlds/fn2.tld</taglib-uri>
+			<taglib-location>/WEB-INF/tlds/fn2.tld</taglib-location>
+		</taglib>
 	</jsp-config>
 	<servlet>
 		<servlet-name>personal</servlet-name>
@@ -36,7 +41,7 @@
 		<servlet-name>animal</servlet-name>
 		<url-pattern>/study/study10/animal</url-pattern>
 	</servlet-mapping>
-	
+
 	<servlet>
 		<servlet-name>result</servlet-name>
 		<servlet-class>study10.ResultServlet</servlet-class>
@@ -45,5 +50,19 @@
 		<servlet-name>result</servlet-name>
 		<url-pattern>/study/study10/result</url-pattern>
 	</servlet-mapping>
-	
+
+
+	<context-param>
+		<description>이름</description>
+		<param-name>Name</param-name>
+		<param-value>GZ</param-value>
+	</context-param>
+	<context-param>
+		<description>나이</description>
+		<param-name>age</param-name>
+		<param-value>25</param-value>
+	</context-param>
+
+
+
 </web-app>
