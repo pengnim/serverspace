@@ -1,8 +1,7 @@
-package ch11_el;
+package ch12_jstl;
 
 public class Member {
 	private String name;
-	private String id;
 
 	public String getName() {
 		return name;
@@ -10,14 +9,6 @@ public class Member {
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
 	}
 
 }
