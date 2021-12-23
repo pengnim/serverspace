@@ -26,6 +26,20 @@ public class FrontControllerServlet extends HttpServlet {
 		System.out.println("contextPath : " + contextPath);
 		String command = requestURI.substring(contextPath.length());
 		System.out.println("command : "+command);
+		
+		if(command.equals("/insert.dos")) {
+			System.out.println("DB에 데이터 입력");
+		}
+		else if(command.equals("/delete.dos")) {
+			System.out.println("DB에 데이터 삭제");
+		}
+		else if(command.equals("/update.dos")) {
+			System.out.println("DB에 데이터 수정");
+		}
+		else {
+			System.out.println("DB에 데이터 조회");
+		}
+		
 	}
 
 }
