@@ -2,7 +2,8 @@ package mvc.command;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+//531
 public interface CommandHandler {
-	public String process(HttpServletRequest req, HttpServletResponse resp);
+     //추상 메소드
+	public String process(HttpServletRequest req, HttpServletResponse res) throws Exception;
 }
