@@ -1,6 +1,6 @@
 <html>
   <body>
-    <h2>😎아래 내용들을 공부했어요</h2>
+    <h2>😎Servlet, jsp MVC패턴에 대해 공부합니다</h2>
     <ul>
       <li>2021-12-10 servlet과 jsp 기초 공부, java bean 공부</li>
       <li>2021-12-13 쿠키, 세션 공부</li>
