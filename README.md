@@ -2,12 +2,13 @@
   <body>
     <h2>😎아래 내용들을 공부했어요</h2>
     <ul>
-      <li>2021-11-17 html기본 문법, 태그들 공부</li>
-      <li>2021-11-18 form태그, layout연습</li>
-      <li>2021-11-22 javascript 기초공부</li>
-      <li>2021-11-25 javascript 이벤트 공부, jqeury 기초 공부, toy project : javascript로 달력만들기</li>
-      <li>2021-11-29 jqeury의 모든 함수, 이벤트 공부</li>
-      <li>2021-12-01 ajax를 jquery에서 사용하고, javascript에서 사용하기 +@ </
+      <li>2021-12-10 servlet과 jsp 기초 공부, java bean 공부</li>
+      <li>2021-12-13 쿠키, 세션 공부</li>
+      <li>2021-12-14 EL태그 공부</li>
+      <li>2021-12-15 EL, JSTL 공부</li>
+      <li>2021-12-20 커스텀태그 공부</li>
+      <li>2021-12-21 커스텀태그 공부 </li>
+      <li>2021-12-23 command pattern으로 코드 짜기</li>
     </ul>
   </body>
 </html>
